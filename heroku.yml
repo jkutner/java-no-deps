@@ -1,5 +1,5 @@
 build:
-  languages:
-    - java
+  buildpacks:
+    - "https://github.com/heroku/java-buildpack/releases/download/v0.5/java-buildpack-v0.5.tgz"
 run:
   web: /lifecycle/launcher
