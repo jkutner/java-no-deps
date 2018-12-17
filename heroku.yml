@@ -2,4 +2,4 @@ build:
   buildpacks:
     - "https://github.com/heroku/java-buildpack"
 run:
-  web: "java -jar target/*.jar"
+  web: --
