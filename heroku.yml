@@ -1,5 +1,5 @@
 build:
   buildpacks:
-    - "https://github.com/heroku/java-buildpack/releases/download/v0.5/java-buildpack-v0.5.tgz"
+    - "https://github.com/heroku/java-buildpack/releases/download/v0.6/java-buildpack-v0.6.tgz"
 run:
   web: /lifecycle/launcher
